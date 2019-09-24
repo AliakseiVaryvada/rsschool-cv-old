@@ -37,3 +37,148 @@
             </a>
         </section>
     </header>
+     <main>
+        <section>
+            <h3>Summary</h3>
+            <p class="just">Hello, my name is Aliaksei Varyvada. I am 23 years old. I am active, quickly trained person. A wide-profile specialist with straight arms and a smart head. Without bad habbits. Knowledge and understanding of computer industry development trends.
+                I am interested in IT, knowledge of the basics of programming (C ++, JAVA, HTML5, CSS, JS), desire to work in this industry. My objective is to start a career with a junior in EPAM Systems and get further development here.</p>
+        </section>
+        <hr>
+        <section>
+            <h3>Skills</h3>
+            <div>
+                <h4>Basic knowledge</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JavaScript ES5/6</li>
+                    <li>JAVA</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Languages</h4>
+                <ul>
+                    <li>Russian - Native speaker</li>
+                    <li>English - Pre-Intermediate A2</li>
+                    <li>French - Elementary A1</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h3>Education</h3>
+            <div class='school'>
+                <span>2011-2015</span> <strong>College of Communication</strong>
+            </div>
+            <div class="descrition">
+                Specialty: Computer Engineering, Systems, Networks
+            </div>
+            <div class='school'>
+                <span>2015-2019</span> <strong>Brest State Technical University</strong>
+            </div>
+            <div>
+                Specialty: Industrial Electronics
+            </div>
+            <div class='school'>
+                <span>2019</span> <strong>CodeAcadey/HtmlAcadey/JavaRush</strong><br>
+            </div>
+            <div>
+                Independent study of programming
+            </div>
+        </section>
+        <hr>
+<section>
+            <h3>Experience</h3>
+            <div class='job-title'>
+                <span>2015-2019</span> <strong>Technical Experience</strong><br>
+            </div>
+            <div>
+                Technical support for enterprises and repair of various types of computer equipment
+            </div>
+            <div class='job-title'>
+                <span>2017 - 2019</span> <strong>Technical Experience</strong><br>
+            </div>
+            <div>
+                Work experience in startups as hardware engineer
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h3>Code Example</h3>
+            <div>
+                <a class="link" href="https://www.codewars.com/kata/the-observed-pin/train/javascript" target="_blank"><img src="./img/cv.png" Width="13" alt="CodewarsLogo"> Codewars Kata link</a>
+            </div>
+            <div class="code">
+                <details>
+                    <summary>Code Example</summary>
+                    <div class="cd">
+                        <pre><code>
+  function getPINs(observed) {
+    let arrR = [];
+    let l = [...observed];
+      for(let k = 0; k&lt;l.length; k++){
+        console.log(l[k]);
+        switch (l[k]) {
+            case &#039;1&#039; :
+                arrR.push([&#039;1&#039;, &#039;2&#039;, &#039;4&#039;]);
+                break;
+            case &#039;2&#039; :
+                arrR.push([&#039;1&#039;, &#039;2&#039;, &#039;3&#039;, &#039;5&#039;]);
+                break;
+            case &#039;3&#039; :
+                arrR.push([&#039;3&#039;, &#039;2&#039;, &#039;6&#039;]);
+                break;
+            case &#039;4&#039; :
+                arrR.push([&#039;4&#039;, &#039;1&#039;, &#039;7&#039;, &#039;5&#039;]);
+                break;
+            case &#039;5&#039; :
+                arrR.push([&#039;5&#039;, &#039;2&#039;, &#039;8&#039;, &#039;4&#039;, &#039;6&#039;]);
+                break;
+            case &#039;6&#039; :
+                arrR.push([&#039;6&#039;, &#039;3&#039;, &#039;9&#039;, &#039;5&#039;]);
+                break;
+            case &#039;7&#039; :
+                arrR.push([&#039;7&#039;, &#039;4&#039;, &#039;8&#039;]);
+                break;
+            case &#039;8&#039; :
+                arrR.push([&#039;8&#039;, &#039;5&#039;, &#039;0&#039;, &#039;7&#039;, &#039;9&#039;]);
+                break;
+            case &#039;9&#039; :
+                arrR.push([&#039;9&#039;, &#039;8&#039;, &#039;6&#039;]);
+                break;
+            case &#039;0&#039; :
+                arrR.push([&#039;0&#039;, &#039;8&#039;]);
+                break;
+        }
+    }
+  function allPossibleCases(arr) {
+        if (arr.length == 1) {
+            return arr[0];
+        } else {
+            var result = [];
+            var allCasesOfRest = allPossibleCases(arr.slice(1));
+            for (var i = 0; i &amp;lt; allCasesOfRest.length; i++) {
+                for (var j = 0; j &amp;lt; arr[0].length; j++) {
+                    result.push(arr[0][j] + allCasesOfRest[i]);
+                }
+            }
+            return result;
+        }
+        return result;
+    }
+  let arrItog = allPossibleCases(arrR);
+  return (arrItog);
+  }   
+                </code></pre>
+                    </div>
+                </details>
+            </div>
+            <br>
+        </section>
+        </main>
+        <footer>
+    </footer>
+</body>
+
+</html>
