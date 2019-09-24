@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+header img {
+    max-width: 150px;
+    border-radius: 17%;
+    box-shadow: 0 0 4px;
+    padding: 2px;
+}
 
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-family: "Raleway";
+    background-color: rgb(238, 245, 243)
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+header {
+    background: url('./img/background.jpg');
+    background-size: cover;
+    background-position: fixed;
+    font-family: "Raleway";
+    color: rgb(28, 37, 41);
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    width: 1024px;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Raleway";
+}
+
+p {
+    font-family: "Raleway";
+}
