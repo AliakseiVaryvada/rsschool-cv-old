@@ -82,3 +82,21 @@ Hello, my name is Aliaksei Varyvada. I am 23 years old. I am energetic and quick
 }  
 ```  
 </details>
+
+## Experience
+* [Codewars][3];
+
+[3]: https://www.codewars.com/users/Alivaria "Codewars"
+***
+* Computer Hardware Egineer - 4 years in electronic service ceneter and government service;
+* Work experience in startups as hardware engineer.
+
+## Education 
+* BSTU - Faculty of Electronic Information Systems - Industrial Electronics;
+* HtmlAcademy & CodeAcademy courses;
+* JavaRush courses;
+
+## English 
+* English level - Pre-Intermediate A2+;
+* I am taking English courses;
+* Practic: regular visits to English-speaking countries and communicate with native speakers.
